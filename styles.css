@@ -37,7 +37,7 @@ button {
 }
 
 body {
-    font-family: "Roboto", sans-serif, "Elsie", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #313f38;
 }
 
@@ -98,6 +98,92 @@ body {
 }
 
 /* ============== /MOBILE HEADER ============== */
+
+/* ============== MOBILE HERO ============== */
+
+.hero-contact {
+    display: none;
+}
+
+.hero-definition-title {
+    display: none;
+}
+
+.hero {
+    padding-bottom: 40px;
+}
+
+.hero-title {
+    font-family: "Elsie", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    color: #fffcf6;
+    padding-bottom: 30px;
+}
+
+.hero-hotel {
+    color: #fcd043;
+}
+
+.hero-hotel-menu {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fcd043;
+    border-bottom: 1px solid #fffcf6;
+    padding-bottom: 20px;
+}
+
+.hero-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-hotel-definition {
+    max-width: 291px;
+    
+    padding: 20px 0 40px 0;
+}
+
+.hero-definition-description {
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 1.64286;
+    text-align: center;
+    color: #fffcf6;
+    opacity: 0.8;
+}
+
+.hero-contacts {
+    padding-top: 40px;
+}
+
+.menu-address {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fffcf6;
+}
+
+.hero-photo {
+    position: relative;
+}
+
+.hero-photo::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 130px;
+    left: -20px;
+    background: url(./icons/button\ -\ default.svg) right no-repeat;
+    z-index: 999;
+}
+
+/* ============== MOBILE HERO ============== */
 
 @media screen and (min-width: 768px) {
     .container {
