@@ -81,43 +81,60 @@
             </p>
           </div>
         </div>
-        <picture class="hero-photo">
-          <source
-            srcset="
-              ./images/hero/photo-desk.jpg    1x,
-              ./images/hero/photo-desk@2x.jpg 2x
-            "
-            media="(min-width: 1920px)"
-          />
-          <source
-            srcset="
-              ./images/hero/photo-lap.jpg    1x,
-              ./images/hero/photo-lap@2x.jpg 2x
-            "
-            media="(min-width: 1440px)"
-          />
-          <source
-            srcset="
-              ./images/hero/photo-tab.jpg    1x,
-              ./images/hero/photo-tab@2x.jpg 2x
-            "
-            media="(min-width: 768px)"
-          />
-          <source
-            srcset="
-              ./images/hero/photo-mob.jpg    1x,
-              ./images/hero/photo-mob@2x.jpg 2x
-            "
-            media="(max-width: 767px)"
-          />
-          <img
-            src="./images/hero/photo-mob.jpg"
-            alt="photo room"
-            class="about-photo"
-          />
-        </picture>
+        <div class="hero-photo-base">
+          <picture class="hero-photo">
+            <source
+              srcset="
+                ./images/hero/photo-desk.jpg    1x,
+                ./images/hero/photo-desk@2x.jpg 2x
+              "
+              media="(min-width: 1920px)"
+            />
+            <source
+              srcset="
+                ./images/hero/photo-lap.jpg    1x,
+                ./images/hero/photo-lap@2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                ./images/hero/photo-tab.jpg    1x,
+                ./images/hero/photo-tab@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/hero/photo-mob.jpg    1x,
+                ./images/hero/photo-mob@2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/hero/photo-mob.jpg"
+              alt="photo room"
+              class="about-photo"
+            />
+          </picture>
+          <div class="hero-form-info">
+            <form class="form-info">
+              <select class="form-time-info" name="time" id="time">
+                <option value="0">Check in</option>
+                <option value="1">15-00</option>
+              </select>
+              <select class="form-time-info" name="time" id="time">
+                <option value="0">Check out</option>
+                <option value="1">12-00</option>
+              </select>
+              <div class="form-btn">
+                <button class="form-button" type="submit">book room</button>
+              </div>
+            </form>
+          </div>
+        </div>
         <div class="hero-contacts">
-          <h3 class="visually-hidden">Location</h3>
+          <h4 class="visually-hidden">Location</h4>
           <address class="hero-address">
             <ul class="hero-contacts-list list">
               <li class="hero-contacts-item hero-contact">

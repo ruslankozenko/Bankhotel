@@ -101,6 +101,10 @@ body {
 
 /* ============== MOBILE HERO ============== */
 
+.hero-form-info {
+    display: none;
+}
+
 .hero-contact {
     display: none;
 }
@@ -183,11 +187,11 @@ body {
     z-index: 999;
 }
 
-/* ============== MOBILE HERO ============== */
+/* ============== /MOBILE HERO ============== */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .container {
-        max-width: 768px;
+        max-width: 1024px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -195,6 +199,71 @@ body {
 /* ============== TABLET HEADER ============== */
 
 /* ============== /TABLET HEADER==============*/
+
+/* ============== TABLET HERO ============== */
+
+.hero-photo::after {
+    display: none;
+}
+
+.hero-form-info {
+    display: block;
+}
+
+.hero-contact {
+    display: block;
+}
+
+.hero-definition-title {
+    display: block;
+}
+
+.form-button {
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 1.42857;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+    width: 248px;
+    height: 100px;
+    background: #fcd043;
+    border: none;
+}
+
+.form-button:hover,
+.form-button:focus {
+    color: black;
+}
+
+.form-time-info {
+    width: 305px;
+    height: 100px;
+    backdrop-filter: blur(40px);
+    background: rgba(49, 63, 56, 0.48);
+    opacity: 0.9;
+    font-weight: 400;
+    font-size: 12px; 
+    line-height: 1.66667;
+    text-transform: uppercase;
+    color: #fffcf6;
+    padding: 40px 20px;
+    border: none;
+}
+
+.form-info {
+    width: 858px;
+    height: 100px;
+    display: flex;
+    margin-left: 125px;
+}
+
+.hero-form-info{
+    margin-top: -100px;
+    position: relative;
+}
+
+/* ============== /TABLET HERO ============== */
 
 }
 
