@@ -495,4 +495,47 @@ body {
 
 /* ============== /DESKTOP HEADER ============== */
 
+/* ============== DESKTOP HERO ============== */
+
+.hero {
+    padding-bottom: 80px;
+}
+
+.hero-top {
+    padding-bottom: 80px;
+}
+
+.hero-title {
+    font-size: 220px;
+    line-height: 0.90909;
+    padding-bottom: 60px;
+}
+
+.hero-hotel-menu {
+    font-size: 26px;
+}
+
+.hero-definition-description {
+    font-size: 18px; 
+    line-height: 1.55556;
+}
+
+.hero-hotel-definition {
+    gap: 120px;
+}
+
+.form-info {
+    margin-left: 0;
+}
+
+.hero-contacts {
+    padding-top: 80px;
+}
+
+.menu-address {
+    font-size: 26px;
+}
+
+/* ============== /DESKTOP HERO ============== */
+
 }
