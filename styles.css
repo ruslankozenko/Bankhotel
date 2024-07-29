@@ -194,6 +194,66 @@ body {
 
 /* ============== /MOBILE HERO ============== */
 
+/* ============== MOBILE ABOUT US ============== */
+
+.about-photo-base-label {
+    display: none;
+}
+
+.about-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-top-title {
+    font-family: "Elsie", sans-serif;
+    font-weight: 400;
+    font-size: 60px; 
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fcd043;
+    padding-bottom: 60px;
+}
+
+.top-title {
+    color: #fffcf6;
+}
+
+.about-top-text {
+    display: flex;
+}
+
+.about-photo-base {
+    padding-bottom: 60px;
+}
+
+.about-title {
+    font-family: "Elsie", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #fffcf6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.76923;
+    color: #fffcf6;
+    opacity: 0.8;
+    max-width: 293px;
+}
+
+.about-text {
+    background: url(./icons/icon-label.svg) top -15px right no-repeat;
+}
+
+/* ============== /MOBILE ABOUT US ============== */
+
 @media screen and (min-width: 1024px) {
     .container {
         max-width: 1024px;
