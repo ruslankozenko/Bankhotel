@@ -203,6 +203,18 @@ body {
 .about-section {
     padding-top: 40px;
     padding-bottom: 40px;
+    position: relative;
+}
+
+.about-container::before {
+    content: "";
+    position: absolute;
+    width: 226px;
+    height: 1px;
+    display: block;
+    background: #3f5148;
+    top: -9px;
+    right: 0px;
 }
 
 .about-top-title {
@@ -222,6 +234,27 @@ body {
 
 .about-top-text {
     display: flex;
+    position: relative;
+}
+
+.about-top-title::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -50px;
+    left: -14px;
+    background: url(./icons/ellipse-mob.svg) no-repeat;
+}
+
+.about-top-title::after {
+    content: "";
+    width: 1px;
+    height: 230px;
+    background: #3f5148;
+    position: absolute;
+    right: 95px;
+    top: -49px;
 }
 
 .about-photo-base {
