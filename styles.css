@@ -427,6 +427,14 @@ body {
 
 /* ============== /TABLET HERO ============== */
 
+/* ============== TABLET ABOUT US ============== */
+
+.about-photo-base-label {
+    display: block;
+}
+
+/* ============== /TABLET ABOUT US ============== */
+
 }
 
 @media screen and (min-width: 1440px) {
